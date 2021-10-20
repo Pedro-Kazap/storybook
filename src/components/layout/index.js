@@ -94,11 +94,12 @@ export const WeatherBody = styled.body`
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(#ff7f00, #ffbb00);`
 
-  export const BuscarContainer = styled.div`
-    width: 720px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-  `
+export const BuscarContainer = styled.div`
+  margin-top: 14px !important;
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+`
